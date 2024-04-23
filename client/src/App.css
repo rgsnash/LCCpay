@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Corrected font-family syntax */
+}
+
+.body {
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(#6792AA, #064BAF);
+    height: 150vh;
+    padding: 20px;
+}
+.homeBg {
+  height: 45vh;
+  background-image: linear-gradient(45deg, #6792AA, #064BAF);
+  position: absolute;
+  top: calc(10px + 3 * 20px);
+  left: 0;
+  right: 0;
+}
+
+.form-containerRegister {
+    max-width: 700px; /* Limit the width of the login form */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: #fff; /* Add a white background */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+.form-containerLogin {
+    max-width: 500px; /* Limit the width of the login form */
+    margin: 0 auto; /* Center the form horizontally */
+    background-color: #fff; /* Add a white background */
+    padding: 20px;
+    border-radius:15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.title, .slogan {
+    text-align: center;
+}
+
+.btn{
+    width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.auth-image{
+    width: 90%;
+    border-radius: 8px;
+}
+.alert{
+    margin-bottom: 1.5rem;
+}
+.topbar{
+    margin-right: 8px;
+    display: inline-block;
+    margin-bottom: '20px';
+
+}
+.logo{
+    margin-left: auto;
+    display: inline-block;
+}
+
+.btntopbar{
+    color: white;
+    cursor: pointer; 
+    user-select: none;
+}
+.homebtn{
+    color: black;
+    cursor: pointer; 
+    user-select: none;
+}
+.homeSlogan{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 2rem;
+    padding: 10px; /* Center horizontally on the left side */
+    top: 50%; /* Align vertically at 50% from the top */
+    left: 50px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.homeHow{
+    color: #064BAF;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 2rem;
+    padding: 10px; /* Center horizontally on the left side */
+    top: 60%; /* Align vertically at 50% from the top */
+    left: 50px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.sidebar {
+    background-color: #fff;
+  }
+  
+  .menu {
+    height: 100%;
+    border-right: 0;
+  }
+  
+.homeSecondary{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    line-height: 2rem;
+    padding: 10px; /* Center horizontally on the left side */
+    top: 35%; /* Align vertically at 50% from the top */
+    left: 50px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.homeSignup{
+    text-align: left;
+    line-height: 2rem;
+    padding: 10px; /* Center horizontally on the left side */
+    top: 70%; /* Align vertically at 50% from the top */
+    left: 140px;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+
+  
+  .success-bg{
+    background-color: #107010 !important;
+    color: white !important;
+    padding: 10px;
+    border-radius: 3px;
+  }
+  
+  .error-bg{
+    background-color: #d3391b !important;
+    color: white !important;
+    padding: 10px;
+    border-radius: 3px;
+  }
+
+  .card {
+    border: 2px solid rgb(131, 131, 131); 
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px; /* Add margin bottom for spacing */
+  }
+  
+  .title {
+    margin-right: 8px; /* Add margin bottom for spacing */
+  }
+  
+
+
